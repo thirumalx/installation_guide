@@ -17,6 +17,32 @@ cd pgmodeler
 brew install qt libxml2 libpq
 ```
 
+### Installation for version 2.0.0 +
+
+Modify the path in `DefaultPaths.cmake`
+
+```bash
+	set(PGSQL_INC /Applications/Postgres.app/Contents/Versions/latest/include)
+	set(PGSQL_LIBS /Applications/Postgres.app/Contents/Versions/latest/lib/libpq.dylib)
+```
+
+Run the below command to build
+
+```bash
+mkdir build && cd build
+
+cmake .. -DCMAKE_PREFIX_PATH=$(brew --prefix qt) && make -j$(sysctl -n hw.ncpu)
+cd build
+```
+
+To install pgmodeler run the below command
+
+```bash
+sudo make install
+```
+
+### Installation for version 1.1.0 - 1.2.0
+
 And change the installation path in `pgmodeler.pri`, something similar to the following configuration
 
 ### For intel chip based Mac
