@@ -151,3 +151,5 @@
   * [Troubleshoot](/wordpress/troubleshoot.md)
 
 * [VisualVm](visualVm/visualvm_remote_set_up.md)
+
+* [Jboss](jboss/jboss.md)
