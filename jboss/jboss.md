@@ -31,6 +31,24 @@ deploy /home/thirumal/jboss/standalone/deployments/demo.war --force
 deploy --undeploy demo.war
 ```
 
+**List all deployed wars**
+
+```bash
+ls $JBOSS_HOME/standalone/deployments | grep -i .war
+```
+
+**List all undeployed wars**
+
+```bash
+ls $JBOSS_HOME/standalone/deployments | grep -i .war.undeployed
+```
+
+**CPU Usage**
+
+```bash
+ps aux | grep jboss
+```
+
 **Find process id of jboss**
 
 ```bash
