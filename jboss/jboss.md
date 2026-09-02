@@ -33,6 +33,12 @@ deploy --undeploy demo.war
 
 **List all deployed wars**
 
+from cli
+
+```bash
+deployment-info
+```
+
 ```bash
 ls $JBOSS_HOME/standalone/deployments | grep -i .war
 ```
