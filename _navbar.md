@@ -7,6 +7,8 @@
 * DATABASE TOOLS
   * [PgModeler](pgmodeler/pgmodeler.md)
   * [PgAdmin4](pgadmin4/install_pgadmin4_using_docker.md)
+  * [PgAdmin using Apache2](pgadmin4/install_pgadmin4_using_apache.md)
+  * [Update PgAdmin4 docker image](pgadmin4/update_pgadmin4_docker_image.md)
   * [Janus Visualization Tools](JanusGraph/Visualization%20Tool.md)
 
 * VPN 

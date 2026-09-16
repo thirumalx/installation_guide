@@ -29,7 +29,7 @@
   * [Troubleshoot](JanusGraph/Trobleshoot.md)
 
 * Install PgAdmin4
-  * [PgAdmin using Apache2](pgadmin4/install_pgadmin4_using_apache*md)
+  * [PgAdmin using Apache2](pgadmin4/install_pgadmin4_using_apache.md)
   * [PgAdmin4 using Docker](pgadmin4/install_pgadmin4_using_docker.md)
   * [Update PgAdmin4 docker image](pgadmin4/update_pgadmin4_docker_image.md)
 
