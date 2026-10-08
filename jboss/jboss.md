@@ -1,4 +1,7 @@
 # Jboss
+
+* [Credential Store](Credential_Store.md)
+
 ## Common Commands
 
 **Connect to jboss**
