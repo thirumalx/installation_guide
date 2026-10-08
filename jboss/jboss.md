@@ -1,6 +1,6 @@
 # Jboss
 
-* [Credential Store](./Credential_Store.md)
+* [Credential Store](jboss/Credential_Store.md)
 
 ## Common Commands
 
